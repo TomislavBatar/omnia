@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/sezona/static/js/main.0fd5db0a.chunk.js",
+    "main.js.map": "/sezona/static/js/main.0fd5db0a.chunk.js.map",
+    "runtime~main.js": "/sezona/static/js/runtime~main.60e9b267.js",
+    "runtime~main.js.map": "/sezona/static/js/runtime~main.60e9b267.js.map",
+    "static/js/2.b2e3ac06.chunk.js": "/sezona/static/js/2.b2e3ac06.chunk.js",
+    "static/js/2.b2e3ac06.chunk.js.map": "/sezona/static/js/2.b2e3ac06.chunk.js.map",
+    "index.html": "/sezona/index.html",
+    "precache-manifest.1749cef141a3130fea041e0dbd672a11.js": "/sezona/precache-manifest.1749cef141a3130fea041e0dbd672a11.js",
+    "service-worker.js": "/sezona/service-worker.js"
+  }
+}
