@@ -99,22 +99,24 @@
 		font-family: "Muli";
 		color: rgb(177, 28, 116);
 		font-weight: 600;
-		height: 50px;
+		height: 55px;
 		position: relative;
 		z-index: 2;
+		transition: all .3s;
+	}
+	.kontaktirajte-nas:hover {
+		border: none !important;
+		box-shadow: none !important;
+		background-color: #a0a0a0 !important;
+		color: #fff !important;
+		margin-left: 10px;
 	}
 	.kontaktirajte-nas:focus {
 		border: none !important;
 		box-shadow: none !important;
-		background-color: #ececec !important;
-		color: rgb(177, 28, 116) !important;
-	}
-
-	.kontaktirajte-nas:hover {
-		border: none !important;
-		box-shadow: none !important;
-		background-color: #ececec !important;
-		color: rgb(177, 28, 116) !important;
+		background-color: #bebdbd !important;
+		color: #fff !important;
+		margin-left: 10px;
 	}
 }
 
@@ -219,7 +221,7 @@
 		border: none !important;
 		box-shadow: none !important;
 		background-color: #ececec !important;
-		color: rgb(177, 28, 116) !important;
+		color: #b11c74 !important;
 	}
 
 	.kontaktirajte-nas:hover {
