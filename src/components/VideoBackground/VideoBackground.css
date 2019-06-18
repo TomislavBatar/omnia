@@ -1,77 +1,224 @@
-* {
-	box-sizing: border-box;
-}
-.video-background {
-	background: #000;
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: -99;
-}
-.video-foreground,
-.video-background iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	pointer-events: none;
-}
-#vidtop-content {
-	top: 0;
-	color: #fff;
-}
-.vid-info {
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 33%;
-	background: rgba(0, 0, 0, 0.3);
-	color: #fff;
-	padding: 1rem;
-	font-family: Avenir, Helvetica, sans-serif;
-}
-.vid-info h1 {
-	font-size: 2rem;
-	font-weight: 700;
-	margin-top: 0;
-	line-height: 1.2;
-}
-.vid-info a {
-	display: block;
-	color: #fff;
-	text-decoration: none;
-	background: rgba(0, 0, 0, 0.5);
-	transition: .6s background;
-	border-bottom: none;
-	margin: 1rem auto;
-	text-align: center;
-}
-@media (min-aspect-ratio: 16/9) {
-	.video-foreground {
-		height: 300%;
-		top: -100%;
+/* lg */
+@media (min-width: 768px) {
+	.overlay {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0, 0, 0, 0.4);
+		z-index: 1;
+	}
+	.kartica-logo {
+		max-height: 100px;
+		z-index: 2;
+		position: relative;
+	}
+
+	.logo-pozicija {
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+	}
+
+	.u-izradi-tekst {
+		font-size: 20px;
+		font-family: "Muli";
+		color: rgb(255, 255, 255);
+		font-weight: 600;
+		/* height: 100px; */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		z-index: 2;
+	}
+
+	.linija {
+		margin-right: 20px;
+		margin-top: 6px;
+		width: 180px;
+		height: 2px;
+		background-color: #fff;
+		z-index: 2;
+	}
+	.position-linija {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.pozicija-glavnog-sadrzaja {
+		display: flex;
+		height: 60vh;
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+	.full-service {
+		font-size: 20px;
+		font-family: "Muli";
+		color: rgb(255, 255, 255);
+		font-weight: 600;
+		position: relative;
+		z-index: 2;
+	}
+	.strategija {
+		font-size: 60px;
+		font-family: "Muli";
+		color: rgb(255, 255, 255);
+		position: relative;
+		font-weight: 900;
+		z-index: 2;
+	}
+
+	.linija-2 {
+		position: relative;
+		border-bottom: 2px solid #fff;
+		z-index: 2;
+		max-width: 200px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.kontaktirajte-nas {
+		margin-top: 20px;
+		font-size: 18px;
+		padding-left: 45px;
+		padding-right: 45px;
+		border-radius: 8px;
+		border: none;
+		background-color: #ececec;
+		font-family: "Muli";
+		color: rgb(177, 28, 116);
+		font-weight: 600;
+		height: 50px;
+		position: relative;
+		z-index: 2;
+	}
+	.kontaktirajte-nas:focus {
+		border: none !important;
+		box-shadow: none !important;
+		background-color: #ececec !important;
+		color: rgb(177, 28, 116) !important;
+	}
+
+	.kontaktirajte-nas:hover {
+		border: none !important;
+		box-shadow: none !important;
+		background-color: #ececec !important;
+		color: rgb(177, 28, 116) !important;
 	}
 }
-@media (max-aspect-ratio: 16/9) {
-	.video-foreground {
-		width: 300%;
-		left: -100%;
+
+/* sm */
+@media (max-width: 766px) {
+	.overlay {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0, 0, 0, 0.4);
+		z-index: 1;
 	}
-}
-@media all and (max-width: 600px) {
-	.vid-info {
-		width: 50%;
-		padding: .5rem;
+	.kartica-logo {
+		max-height: 80px;
+		z-index: 2;
+		position: relative;
 	}
-	.vid-info h1 {
-		margin-bottom: .2rem;
+
+	.logo-pozicija {
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
 	}
-}
-@media all and (max-width: 500px) {
-	.vid-info .acronym {
+
+	.u-izradi-tekst {
+		font-size: 15px;
+		font-family: "Muli";
+		color: rgb(255, 255, 255);
+		font-weight: 600;
+		/* height: 100px; */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		z-index: 2;
+	}
+
+	.linija {
+		/* margin-right: 20px;
+		margin-top: 6px;
+		width: 100px;
+		height: 2px;
+		background-color: #fff;
+		z-index: 2; */
 		display: none;
+	}
+	.position-linija {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.pozicija-glavnog-sadrzaja {
+		display: flex;
+		height: 60vh;
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+	.full-service {
+		font-size: 16px;
+		font-family: "Muli";
+		color: rgb(255, 255, 255);
+		font-weight: 600;
+		position: relative;
+		z-index: 2;
+	}
+	.strategija {
+		font-size: 45px;
+		font-family: "Muli";
+		color: rgb(255, 255, 255);
+		position: relative;
+		font-weight: 900;
+		z-index: 2;
+	}
+
+	.linija-2 {
+		position: relative;
+		border-bottom: 2px solid #fff;
+		z-index: 2;
+		max-width: 120px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.kontaktirajte-nas {
+		margin-top: 20px;
+		font-size: 16px;
+		padding-left: 35px;
+		padding-right: 35px;
+		border-radius: 8px;
+		border: none;
+		background-color: #ececec;
+		font-family: "Muli";
+		color: rgb(177, 28, 116);
+		font-weight: 600;
+		height: 50px;
+		position: relative;
+		z-index: 2;
+	}
+	.kontaktirajte-nas:focus {
+		border: none !important;
+		box-shadow: none !important;
+		background-color: #ececec !important;
+		color: rgb(177, 28, 116) !important;
+	}
+
+	.kontaktirajte-nas:hover {
+		border: none !important;
+		box-shadow: none !important;
+		background-color: #ececec !important;
+		color: rgb(177, 28, 116) !important;
 	}
 }
