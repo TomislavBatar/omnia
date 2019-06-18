@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Cover from 'react-video-cover';
 import { Navbar, Nav, Row, Col, Container, Image, Button } from 'react-bootstrap';
+import Typist from 'react-typist';
 
 import './VideoBackground.css';
 import Logo from './imgVideoBackground/logo-omnia.svg';
@@ -46,9 +47,16 @@ export default class VideoBackground extends Component {
 								<h2 className="full-service">Full service marketing agencija</h2>
 								<div className="linija-2" />
 								<h1 className="strategija">
-									Strategija. <br />
-									Kreativnost. <br />
-									Rezultat.
+									<Typist startDelay={600} avgTypingDelay={100}>
+										Strategija.
+										<br />
+										<Typist.Delay ms={500} />
+										Kreativnost. <br />
+										<Typist.Delay ms={500} />
+										Rezultat.
+										<Typist.Backspace count={1} delay={800} />
+										i.
+									</Typist>
 								</h1>
 								<Button className="kontaktirajte-nas">Kontaktirajte nas</Button>
 							</div>
