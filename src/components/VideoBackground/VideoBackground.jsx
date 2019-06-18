@@ -47,7 +47,14 @@ export default class VideoBackground extends Component {
 								<h2 className="full-service">Full service marketing agencija</h2>
 								<div className="linija-2" />
 								<h1 className="strategija">
-									<Typist startDelay={600} avgTypingDelay={100}>
+									<Typist
+										className="blinker"
+										cursor={{
+											hideWhenDone: true
+										}}
+										startDelay={600}
+										avgTypingDelay={100}
+									>
 										Strategija.
 										<br />
 										<Typist.Delay ms={500} />
