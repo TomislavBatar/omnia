@@ -30,10 +30,10 @@ export default class VideoBackground extends Component {
 			<React.Fragment>
 				<Container>
 					<Row className="justify-content-between">
-						<Col className="logo-pozicija">
+						<Col lg={6} md={6} sm={4} xs={4} className="logo-pozicija">
 							<Image className="kartica-logo" src={Logo} />
 						</Col>
-						<Col className="d-flex justify-content-end">
+						<Col lg={6} md={6} sm={8} xs={8} className="d-flex justify-content-end">
 							<div className="position-linija">
 								<div className="linija" />
 							</div>
@@ -52,7 +52,7 @@ export default class VideoBackground extends Component {
 										cursor={{
 											hideWhenDone: true
 										}}
-										startDelay={600}
+										startDelay={800}
 										avgTypingDelay={100}
 									>
 										Strategija.

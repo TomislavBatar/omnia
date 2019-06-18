@@ -42,6 +42,10 @@
 		height: 2px;
 		background-color: #fff;
 		z-index: 2;
+		-webkit-animation: linija2 1s; /* Safari 4+ */
+		-moz-animation: linija2 1s; /* Fx 5+ */
+		-o-animation: linija2 1s; /* Opera 12+ */
+		animation: linija2 1s; /* IE 10+, Fx 29+ */
 	}
 	.position-linija {
 		display: flex;
@@ -78,6 +82,10 @@
 		max-width: 200px;
 		margin-top: 30px;
 		margin-bottom: 30px;
+		-webkit-animation: linija2 1s; /* Safari 4+ */
+		-moz-animation: linija2 1s; /* Fx 5+ */
+		-o-animation: linija2 1s; /* Opera 12+ */
+		animation: linija2 1s; /* IE 10+, Fx 29+ */
 	}
 
 	.kontaktirajte-nas {
@@ -148,13 +156,12 @@
 	}
 
 	.linija {
-		/* margin-right: 20px;
-		margin-top: 6px;
-		width: 100px;
+		margin-right: 10px;
+		margin-top: 2px;
+		width: 40px;
 		height: 2px;
 		background-color: #fff;
-		z-index: 2; */
-		display: none;
+		z-index: 2;
 	}
 	.position-linija {
 		display: flex;
@@ -220,5 +227,39 @@
 		box-shadow: none !important;
 		background-color: #ececec !important;
 		color: rgb(177, 28, 116) !important;
+	}
+}
+
+@-webkit-keyframes linija2 {
+	0% {
+		max-width: 10px;
+	}
+	100% {
+		max-width: 200px;
+	}
+}
+
+@-moz-keyframes linija2 {
+	0% {
+		max-width: 10px;
+	}
+	100% {
+		max-width: 200px;
+	}
+}
+@-o-keyframes linija2 {
+	0% {
+		max-width: 10px;
+	}
+	100% {
+		max-width: 200px;
+	}
+}
+@keyframes linija2 {
+	0% {
+		max-width: 10px;
+	}
+	100% {
+		max-width: 200px;
 	}
 }

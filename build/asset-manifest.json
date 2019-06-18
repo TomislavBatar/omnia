@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.60655e08.chunk.css",
-    "main.js": "/static/js/main.92ac76d5.chunk.js",
-    "main.js.map": "/static/js/main.92ac76d5.chunk.js.map",
+    "main.js": "/static/js/main.428dbf10.chunk.js",
+    "main.js.map": "/static/js/main.428dbf10.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.3e4da5cb.chunk.js": "/static/js/2.3e4da5cb.chunk.js",
-    "static/js/2.3e4da5cb.chunk.js.map": "/static/js/2.3e4da5cb.chunk.js.map",
+    "static/js/2.2c8d101d.chunk.js": "/static/js/2.2c8d101d.chunk.js",
+    "static/js/2.2c8d101d.chunk.js.map": "/static/js/2.2c8d101d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cbf23d5b267e0d896e451f7536575e80.js": "/precache-manifest.cbf23d5b267e0d896e451f7536575e80.js",
+    "precache-manifest.458a44ac2d947a7f2987b9d9520b7796.js": "/precache-manifest.458a44ac2d947a7f2987b9d9520b7796.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.60655e08.chunk.css.map": "/static/css/main.60655e08.chunk.css.map",
     "static/media/logo-omnia.svg": "/static/media/logo-omnia.04da154f.svg"
