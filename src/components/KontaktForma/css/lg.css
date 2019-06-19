@@ -1,0 +1,81 @@
+@media (min-width: 768px) {
+	.bg-kontakt {
+		background-color: #cacaca;
+		z-index: -1;
+		height: 100vh;
+	}
+
+	.padding-section-kontakt {
+		padding-top: 60px !important;
+	}
+
+	.kartica-logo-kontakt {
+		max-height: 100px;
+		z-index: 2;
+		position: relative;
+		-webkit-box-shadow: -15px 15px 6px 0px rgba(161, 161, 161, 1);
+		-moz-box-shadow: -15px 15px 6px 0px rgba(161, 161, 161, 1);
+		box-shadow: -15px 15px 6px 0px rgba(161, 161, 161, 1);
+		transition: all .4s;
+	}
+
+	.kartica-logo-kontakt:hover {
+		transform: translate(-0.5em, 0.5em);
+		box-shadow: none;
+	}
+
+	.logo-pozicija-kontakt {
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+	}
+	.position-linija-kontakt {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.linija-kontakt {
+		margin-right: 20px;
+		margin-top: 0px;
+		width: 180px;
+		height: 2px;
+		background-color: #000;
+		z-index: 2;
+		-webkit-animation: linija2 1s; /* Safari 4+ */
+		-moz-animation: linija2 1s; /* Fx 5+ */
+		-o-animation: linija2 1s; /* Opera 12+ */
+		animation: linija2 1s; /* IE 10+, Fx 29+ */
+	}
+	.u-izradi-tekst-kontakt {
+		font-size: 18px;
+		font-family: "Inconsolata";
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		color: #000;
+		font-weight: 600;
+		/* height: 100px; */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		z-index: 2;
+	}
+
+	.box-shadow {
+		margin-top: 300px;
+		border-width: 3px;
+		border-color: rgb(0, 0, 0);
+		border-style: solid;
+		background-color: rgb(255, 255, 255);
+		border-radius: 0px;
+	}
+
+	/* .pozicija-sadrzaja {
+		display: flex;
+		height: 55vh;
+		flex-direction: column;
+		justify-content: flex-end;
+    } */
+	/* .aaa {
+		height: 50vh;
+	} */
+}
