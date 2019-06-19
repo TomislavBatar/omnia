@@ -4,7 +4,7 @@ import { Navbar, Nav, Row, Col, Container, Image, Button } from 'react-bootstrap
 import Typist from 'react-typist';
 
 import './VideoBackground.css';
-import Logo from './imgVideoBackground/logo-omnia.svg';
+import Logo from './imgVideoBackground/logo-omnia-2.svg';
 const style = {
 	width: '100vw',
 	height: '100vh',
@@ -65,7 +65,12 @@ export default class VideoBackground extends Component {
 										i.
 									</Typist>
 								</h1>
-								<Button className="kontaktirajte-nas">Kontaktirajte nas</Button>
+								{/* <Button className="kontaktirajte-nas">Kontaktirajte nas</Button> */}
+								<br />
+								{/* <a class="btn">Click me baby yeah</a> <br />
+								<a class="btn cta">So Click-a-licious</a> */}
+								<br />
+								<a class="btn2 cta2 bg2 ml-2">Kontaktirajte nas</a>
 							</div>
 						</Col>
 					</Row>

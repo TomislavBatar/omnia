@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.60655e08.chunk.css",
-    "main.js": "/static/js/main.428dbf10.chunk.js",
-    "main.js.map": "/static/js/main.428dbf10.chunk.js.map",
+    "main.css": "/static/css/main.1ef613cb.chunk.css",
+    "main.js": "/static/js/main.d21eab70.chunk.js",
+    "main.js.map": "/static/js/main.d21eab70.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.2c8d101d.chunk.js": "/static/js/2.2c8d101d.chunk.js",
     "static/js/2.2c8d101d.chunk.js.map": "/static/js/2.2c8d101d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.458a44ac2d947a7f2987b9d9520b7796.js": "/precache-manifest.458a44ac2d947a7f2987b9d9520b7796.js",
+    "precache-manifest.0756a30eb5d52788cf2ec8d7360a0d7a.js": "/precache-manifest.0756a30eb5d52788cf2ec8d7360a0d7a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.60655e08.chunk.css.map": "/static/css/main.60655e08.chunk.css.map",
+    "static/css/main.1ef613cb.chunk.css.map": "/static/css/main.1ef613cb.chunk.css.map",
     "static/media/logo-omnia.svg": "/static/media/logo-omnia.04da154f.svg"
   }
 }
