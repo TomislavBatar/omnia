@@ -29,7 +29,7 @@ export default class VideoBackground extends Component {
 		return (
 			<React.Fragment>
 				<Container>
-					<Row className="justify-content-between">
+					<Row className="justify-content-between padding-section">
 						<Col lg={6} md={6} sm={4} xs={4} className="logo-pozicija">
 							<Image className="kartica-logo" src={Logo} />
 						</Col>
@@ -70,7 +70,7 @@ export default class VideoBackground extends Component {
 								{/* <a class="btn">Click me baby yeah</a> <br />
 								<a class="btn cta">So Click-a-licious</a> */}
 								<br />
-								<a class="btn2 cta2 bg2 ml-2">Kontaktirajte nas</a>
+								<a class="btn2 cta2 bg2 ml-3">Kontaktirajte nas</a>
 							</div>
 						</Col>
 					</Row>
