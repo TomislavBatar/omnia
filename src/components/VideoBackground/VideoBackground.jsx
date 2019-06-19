@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Cover from 'react-video-cover';
 import { Navbar, Nav, Row, Col, Container, Image, Button } from 'react-bootstrap';
 import Typist from 'react-typist';
-
+import { LinkContainer } from 'react-router-bootstrap';
 import './VideoBackground.css';
 import Logo from './imgVideoBackground/logo-omnia-2.svg';
 const style = {
@@ -65,12 +65,11 @@ export default class VideoBackground extends Component {
 										i.
 									</Typist>
 								</h1>
-								{/* <Button className="kontaktirajte-nas">Kontaktirajte nas</Button> */}
-								<br />
-								{/* <a class="btn">Click me baby yeah</a> <br />
-								<a class="btn cta">So Click-a-licious</a> */}
-								<br />
-								<a class="btn2 cta2 bg2 ml-3">Kontaktirajte nas</a>
+								<div class="btn2 cta2 bg2 ml-3 mt-5">
+									<LinkContainer to="/kontakt">
+										<span>Kontaktirajte nas</span>
+									</LinkContainer>
+								</div>
 							</div>
 						</Col>
 					</Row>
