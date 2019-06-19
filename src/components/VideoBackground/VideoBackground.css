@@ -203,6 +203,7 @@
 	.u-izradi-tekst {
 		font-size: 15px;
 		font-family: "Inconsolata";
+		letter-spacing: 2px;
 		text-transform: uppercase;
 		color: rgb(255, 255, 255);
 		font-weight: 600;
@@ -234,7 +235,8 @@
 	}
 	.full-service {
 		font-size: 16px;
-		font-family: "Muli";
+		font-family: "Inconsolata";
+		letter-spacing: 2px;
 		color: rgb(255, 255, 255);
 		font-weight: 600;
 		position: relative;
@@ -267,8 +269,7 @@
 	}
 
 	.btn2 {
-		font-size: 12px;
-
+		font-size: 13px;
 		color: #101832;
 		font-family: "Inconsolata";
 		font-weight: 700;
@@ -305,7 +306,7 @@
 		left: -10px;
 		top: 3px;
 		width: 6px;
-		height: 45px;
+		height: 46px;
 		transform: skewY(-45deg);
 		/* display: none; */
 	}
@@ -314,7 +315,7 @@
 		border-image-slice: 1 1 1 0;
 		bottom: -10px;
 		right: 3px;
-		width: 202px;
+		width: 189px;
 		height: 6px;
 		transform: skewX(-45deg);
 		/* display: none; */
