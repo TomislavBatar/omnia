@@ -61,21 +61,135 @@
 	}
 
 	.box-shadow {
-		margin-top: 300px;
-		border-width: 3px;
+		border-left-width: 18px;
+		border-right-width: 3px;
+		border-top-width: 3px;
+		border-bottom-width: 18px;
 		border-color: rgb(0, 0, 0);
 		border-style: solid;
 		background-color: rgb(255, 255, 255);
 		border-radius: 0px;
+		padding: 20px;
 	}
 
-	/* .pozicija-sadrzaja {
+	.naslov-kontakt {
+		font-size: 48px;
+		font-family: "Muli";
+		color: rgb(0, 0, 0);
+		text-align: right;
+		font-weight: 800;
+	}
+
+	.padding-forma-sadrzaj {
+		margin-top: 80px;
+	}
+	.input-forma {
+		border-radius: 0px;
+		border: 3px solid #000;
+		height: 50px;
+		font-size: 20px;
+		font-family: "Inconsolata";
+		letter-spacing: 3px;
+		font-weight: 600;
+		color: #000;
+		outline: none;
+		transition: all .3s;
+		padding-left: 25px;
+	}
+
+	.input-forma::placeholder {
+		color: #000;
+	}
+	.input-forma:hover {
+		color: #000;
+	}
+	.input-forma:focus {
+		border: 3px solid #000;
+		outline: none;
+		box-shadow: none;
+		text-transform: none;
+		padding-left: 35px;
+		text-decoration-line: inherit;
+	}
+	.icon-h {
+		height: 55px;
+		margin-right: 15px;
+		-webkit-box-shadow: -15px 15px 6px 0px rgba(161, 161, 161, 1);
+		-moz-box-shadow: -15px 15px 6px 0px rgba(161, 161, 161, 1);
+		box-shadow: -15px 15px 6px 0px rgba(161, 161, 161, 1);
+		transition: all .4s;
+	}
+	.icon-h:hover {
+		transform: translate(-0.5em, 0.5em);
+		box-shadow: none;
+	}
+	.flex-pozicija {
 		display: flex;
-		height: 55vh;
 		flex-direction: column;
-		justify-content: flex-end;
-    } */
-	/* .aaa {
-		height: 50vh;
-	} */
+		justify-content: space-between;
+	}
+
+	.ikonice-drustvene-mreze {
+		float: right;
+	}
+
+	.pozicija-trokut-gornji {
+		position: absolute;
+		height: 24px;
+		z-index: 2;
+		left: -20px;
+		top: -5px;
+	}
+	.pozicija-trokut-donji {
+		position: absolute;
+		height: 20px;
+		z-index: 2;
+		bottom: -22px;
+		right: -4px;
+	}
+
+	.dugme-posalji {
+		margin-top: 60px;
+		height: 60px;
+		padding-left: 25px;
+		border-color: #000;
+		padding-right: 25px;
+		border-left-width: 15px;
+		border-right-width: 3px;
+		border-top-width: 3px;
+		border-bottom-width: 15px;
+		border-radius: 0px;
+		outline: none;
+		text-transform: uppercase;
+		font-size: 20px;
+		font-family: "Inconsolata";
+		font-weight: 700;
+		background-color: #fff;
+		color: #000;
+		position: relative;
+		-webkit-box-shadow: -15px 17px 6px 0px rgba(161, 161, 161, 1);
+		-moz-box-shadow: -15px 17px 6px 0px rgba(161, 161, 161, 1);
+		box-shadow: -15px 17px 6px 0px rgba(161, 161, 161, 1);
+		transition: all .4s;
+	}
+	.dugme-posalji:hover {
+		transform: translate(-0.5em, 0.5em);
+		box-shadow: none;
+		color: #000;
+		background-color: #fff;
+		border-color: #000;
+	}
+
+	.pozicija-trokut-mali-gornji {
+		position: absolute;
+		height: 20px;
+		left: -16px;
+		top: -6px;
+	}
+	.pozicija-trokut-mali-donji {
+		position: absolute;
+		height: 20px;
+		right: -10px;
+		bottom: -16px;
+	}
 }

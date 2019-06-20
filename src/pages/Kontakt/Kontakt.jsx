@@ -3,9 +3,9 @@ import KontaktForma from '../../components/KontaktForma/KontaktForma';
 export default class Kontakt extends Component {
 	render() {
 		return (
-			<div>
+			<React.Fragment>
 				<KontaktForma />
-			</div>
+			</React.Fragment>
 		);
 	}
 }
