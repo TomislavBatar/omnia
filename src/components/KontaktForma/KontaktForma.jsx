@@ -33,7 +33,10 @@ export default class KontaktForma extends Component {
 									<Image className="pozicija-trokut-gornji" src={goreTrokut} alt="kontakt omnia" />
 									<Image className="pozicija-trokut-donji" src={donjiTrokut} alt="kontakt omnia" />
 									<Card.Body>
-										<Form>
+										<Form
+											action="https://formspree.io/tomislav.batar@omniamarketing.ba"
+											method="POST"
+										>
 											<Form.Group controlId="">
 												<Form.Control
 													type="text"
@@ -78,7 +81,7 @@ export default class KontaktForma extends Component {
 										</Form>
 									</Card.Body>
 								</Card>
-								<Button className="dugme-posalji">
+								<Button type="submit" className="dugme-posalji">
 									<Image
 										className="pozicija-trokut-mali-gornji"
 										src={goreTrokut}
