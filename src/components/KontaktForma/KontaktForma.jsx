@@ -14,7 +14,8 @@ export default class KontaktForma extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<div className="bg-kontakt">
+				<div>
+					<div className="bg-kontakt" />
 					<Container>
 						<Row className="justify-content-between padding-section-kontakt">
 							<Col lg={6} md={6} sm={4} xs={4} className="logo-pozicija-kontakt">
@@ -28,6 +29,28 @@ export default class KontaktForma extends Component {
 							</Col>
 						</Row>
 						<Row className="padding-forma-sadrzaj">
+							<Col lg={6} className="flex-pozicija lg-none">
+								<div className="">
+									<h1 className="naslov-kontakt">
+										Kontaktiraj nas.<br />
+										Živećeš noormalnoo.
+									</h1>
+								</div>
+
+								{/* <div className="">
+									<div className="ikonice-drustvene-mreze form-inline">
+										<div className="icon1">
+											<Image src={ig} className="icon-h" alt="instagram" />
+										</div>
+										<div className="icon2">
+											<Image src={fb} className="icon-h" alt="facebook" />
+										</div>
+										<div className="icon3">
+											<Image src={li} className="icon-h" alt="linkedin" />
+										</div>
+									</div>
+								</div> */}
+							</Col>
 							<Col lg={6} className="">
 								<Card className="box-shadow">
 									<Image className="pozicija-trokut-gornji" src={goreTrokut} alt="kontakt omnia" />
@@ -94,9 +117,23 @@ export default class KontaktForma extends Component {
 									/>
 									Pošaljite
 								</Button>
+
+								<div className="btn-margin-top ">
+									<div className=" form-inline">
+										<div className="icon1">
+											<Image src={ig} className="icon-h" alt="instagram" />
+										</div>
+										<div className="icon2">
+											<Image src={fb} className="icon-h" alt="facebook" />
+										</div>
+										<div className="icon3">
+											<Image src={li} className="icon-h" alt="linkedin" />
+										</div>
+									</div>
+								</div>
 							</Col>
 
-							<Col lg={6} className="flex-pozicija">
+							<Col lg={6} className="flex-pozicija sm-none">
 								<div className="">
 									<h1 className="naslov-kontakt">
 										Kontaktiraj nas.<br />

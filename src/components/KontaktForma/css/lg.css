@@ -1,10 +1,16 @@
 @media (min-width: 768px) {
-	.bg-kontakt {
+	/* .bg-kontakt {
 		background-color: #cacaca;
 		z-index: -1;
-		height: 100vh;
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+	} */
+	body {
+		background-color: #cacaca;
 	}
-
 	.padding-section-kontakt {
 		padding-top: 60px !important;
 	}
@@ -82,6 +88,7 @@
 
 	.padding-forma-sadrzaj {
 		margin-top: 80px;
+		margin-bottom: 80px;
 	}
 	.input-forma {
 		border-radius: 0px;
@@ -174,10 +181,17 @@
 	}
 	.dugme-posalji:hover {
 		transform: translate(-0.5em, 0.5em);
-		box-shadow: none;
-		color: #000;
-		background-color: #fff;
-		border-color: #000;
+		box-shadow: none !important;
+		color: #000 !important;
+		background-color: #fff !important;
+		border-color: #000 !important;
+	}
+	.dugme-posalji:focus {
+		transform: translate(-0.5em, 0.5em);
+		box-shadow: none !important;
+		color: #000 !important;
+		background-color: #fff !important;
+		border-color: #000 !important;
 	}
 
 	.pozicija-trokut-mali-gornji {
@@ -191,5 +205,12 @@
 		height: 20px;
 		right: -10px;
 		bottom: -16px;
+	}
+
+	.lg-none {
+		display: none;
+	}
+	.btn-margin-top {
+		display: none;
 	}
 }
