@@ -3,6 +3,8 @@ import Cover from 'react-video-cover';
 import { Navbar, Nav, Row, Col, Container, Image, Button } from 'react-bootstrap';
 import Typist from 'react-typist';
 import { LinkContainer } from 'react-router-bootstrap';
+import { Link } from 'react-router-dom';
+
 import './VideoBackground.css';
 import Logo from './imgVideoBackground/logo-omnia-2.svg';
 const style = {
@@ -30,9 +32,12 @@ export default class VideoBackground extends Component {
 			<React.Fragment>
 				<Container>
 					<Row className="justify-content-between padding-section">
-						<Col lg={6} md={6} sm={4} xs={4} className="logo-pozicija">
-							<Image className="kartica-logo" src={Logo} />
-						</Col>
+						<Link to="/">
+							<Col lg={6} md={6} sm={4} xs={4} className="logo-pozicija">
+								<Image className="kartica-logo" src={Logo} />
+							</Col>
+						</Link>
+
 						<Col lg={6} md={6} sm={8} xs={8} className="d-flex justify-content-end">
 							<div className="position-linija">
 								<div className="linija" />
@@ -65,11 +70,10 @@ export default class VideoBackground extends Component {
 										i.
 									</Typist>
 								</h1>
-								<div class="btn2 cta2 bg2 ml-3 mt-5">
-									<LinkContainer to="/kontakt">
-										<span>Kontaktirajte nas</span>
-									</LinkContainer>
-								</div>
+
+								<Link className="btn2 cta2 bg2 ml-3 mt-4" to="/kontakt">
+									Kontaktirajte nas
+								</Link>
 							</div>
 						</Col>
 					</Row>

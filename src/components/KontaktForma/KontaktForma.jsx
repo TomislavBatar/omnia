@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import './css/lg.css';
 import './css/sm.css';
 import { Row, Col, Container, Image, Card, Form, Button } from 'react-bootstrap';
@@ -18,9 +20,11 @@ export default class KontaktForma extends Component {
 					<div className="bg-kontakt" />
 					<Container>
 						<Row className="justify-content-between padding-section-kontakt">
-							<Col lg={6} md={6} sm={4} xs={4} className="logo-pozicija-kontakt">
-								<Image className="kartica-logo-kontakt" src={logoOmnia} />
-							</Col>
+							<Link to="/">
+								<Col lg={6} md={6} sm={4} xs={4} className="logo-pozicija-kontakt">
+									<Image className="kartica-logo-kontakt" src={logoOmnia} />
+								</Col>
+							</Link>
 							<Col lg={6} md={6} sm={8} xs={8} className="d-flex justify-content-end">
 								<div className="position-linija-kontakt">
 									<div className="linija-kontakt" />
@@ -32,8 +36,8 @@ export default class KontaktForma extends Component {
 							<Col lg={6} className="flex-pozicija lg-none">
 								<div className="">
 									<h1 className="naslov-kontakt">
-										Kontaktiraj nas.<br />
-										Živećeš noormalnoo.
+										<h2 className="naslov-kontakt-2">Ostani da ti kažem nešto još.</h2>
+										Kontaktiraj nas.
 									</h1>
 								</div>
 
@@ -121,13 +125,22 @@ export default class KontaktForma extends Component {
 								<div className="btn-margin-top ">
 									<div className=" form-inline">
 										<div className="icon1">
-											<Image src={ig} className="icon-h" alt="instagram" />
+											<a
+												href="https://www.instagram.com/omnia_marketing_agencija/"
+												target="_blank"
+											>
+												<Image src={ig} className="icon-h" alt="instagram" />
+											</a>
 										</div>
 										<div className="icon2">
-											<Image src={fb} className="icon-h" alt="facebook" />
+											<a href="https://www.facebook.com/omniamarketingagencija/" target="_blank">
+												<Image src={fb} className="icon-h" alt="facebook" />
+											</a>
 										</div>
 										<div className="icon3">
-											<Image src={li} className="icon-h" alt="linkedin" />
+											<a href="https://www.linkedin.com/company/omnia-marketing" target="_blank">
+												<Image src={li} className="icon-h" alt="linkedin" />
+											</a>
 										</div>
 									</div>
 								</div>
@@ -135,22 +148,31 @@ export default class KontaktForma extends Component {
 
 							<Col lg={6} className="flex-pozicija sm-none">
 								<div className="">
+									<h2 className="naslov-kontakt-2">Ostani da ti kažem nešto još.</h2>
 									<h1 className="naslov-kontakt">
 										Kontaktiraj nas.<br />
-										Živećeš noormalnoo.
 									</h1>
 								</div>
 
 								<div className="">
 									<div className="ikonice-drustvene-mreze form-inline">
 										<div className="icon1">
-											<Image src={ig} className="icon-h" alt="instagram" />
+											<a
+												href="https://www.instagram.com/omnia_marketing_agencija/"
+												target="_blank"
+											>
+												<Image src={ig} className="icon-h" alt="instagram" />
+											</a>
 										</div>
 										<div className="icon2">
-											<Image src={fb} className="icon-h" alt="facebook" />
+											<a href="https://www.facebook.com/omniamarketingagencija/" target="_blank">
+												<Image src={fb} className="icon-h" alt="facebook" />
+											</a>
 										</div>
 										<div className="icon3">
-											<Image src={li} className="icon-h" alt="linkedin" />
+											<a href="https://www.linkedin.com/company/omnia-marketing" target="_blank">
+												<Image src={li} className="icon-h" alt="linkedin" />
+											</a>
 										</div>
 									</div>
 								</div>

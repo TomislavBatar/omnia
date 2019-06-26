@@ -169,6 +169,7 @@
 
 	.btn2:hover {
 		transform: translate(0.5em, -0.5em);
+		text-decoration: none;
 		-webkit-box-shadow: -26px 25px 5px 0px rgba(0, 0, 0, 0.3);
 		-moz-box-shadow: -26px 25px 5px 0px rgba(0, 0, 0, 0.3);
 		box-shadow: -26px 25px 5px 0px rgba(255, 255, 255, .3);
@@ -201,7 +202,7 @@
 	}
 
 	.u-izradi-tekst {
-		font-size: 15px;
+		font-size: 13px;
 		font-family: "Inconsolata";
 		letter-spacing: 2px;
 		text-transform: uppercase;
@@ -229,13 +230,14 @@
 	}
 	.pozicija-glavnog-sadrzaja {
 		display: flex;
-		height: 58vh;
+		height: 50vh;
 		flex-direction: column;
 		justify-content: flex-end;
 	}
 	.full-service {
-		font-size: 16px;
+		font-size: 12px;
 		font-family: "Inconsolata";
+		text-transform: uppercase;
 		letter-spacing: 2px;
 		color: rgb(255, 255, 255);
 		font-weight: 600;
@@ -243,7 +245,7 @@
 		z-index: 2;
 	}
 	.strategija {
-		font-size: 45px;
+		font-size: 30px;
 		font-family: "Muli";
 		color: rgb(255, 255, 255);
 		position: relative;
@@ -343,6 +345,7 @@
 
 	.btn2:hover {
 		transform: translate(0.5em, -0.5em);
+		text-decoration: none;
 		-webkit-box-shadow: -26px 25px 5px 0px rgba(255, 255, 255, .3);
 		-moz-box-shadow: -26px 25px 5px 0px rgba(255, 255, 255, .3);
 		box-shadow: -26px 25px 5px 0px rgba(255, 255, 255, .3);

@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd60ffbf.chunk.css",
-    "main.js": "/static/js/main.514a15ae.chunk.js",
-    "main.js.map": "/static/js/main.514a15ae.chunk.js.map",
+    "main.css": "/static/css/main.e1d7620c.chunk.css",
+    "main.js": "/static/js/main.45817bcb.chunk.js",
+    "main.js.map": "/static/js/main.45817bcb.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.6f513f73.chunk.js": "/static/js/2.6f513f73.chunk.js",
-    "static/js/2.6f513f73.chunk.js.map": "/static/js/2.6f513f73.chunk.js.map",
+    "static/js/2.82fa95b2.chunk.js": "/static/js/2.82fa95b2.chunk.js",
+    "static/js/2.82fa95b2.chunk.js.map": "/static/js/2.82fa95b2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f65602faf2b9ffdc13ef17708e6e6b8a.js": "/precache-manifest.f65602faf2b9ffdc13ef17708e6e6b8a.js",
+    "precache-manifest.c89692b3a22200c91ae23b1bd3fd831e.js": "/precache-manifest.c89692b3a22200c91ae23b1bd3fd831e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.cd60ffbf.chunk.css.map": "/static/css/main.cd60ffbf.chunk.css.map",
-    "static/media/logo-omnia-2.svg": "/static/media/logo-omnia-2.1d1ccd0f.svg"
+    "static/css/main.e1d7620c.chunk.css.map": "/static/css/main.e1d7620c.chunk.css.map",
+    "static/media/donji.svg": "/static/media/donji.f0e23d88.svg",
+    "static/media/fb.svg": "/static/media/fb.654d0683.svg",
+    "static/media/gore.svg": "/static/media/gore.86ba8819.svg",
+    "static/media/ig.svg": "/static/media/ig.7e0244dc.svg",
+    "static/media/li.svg": "/static/media/li.b4e906b4.svg",
+    "static/media/logo-omnia-2.svg": "/static/media/logo-omnia-2.1d1ccd0f.svg",
+    "static/media/omnia logo filled.svg": "/static/media/omnia logo filled.03c7f7a6.svg"
   }
 }
