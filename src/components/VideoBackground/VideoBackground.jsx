@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Cover from 'react-video-cover';
-import { Navbar, Nav, Row, Col, Container, Image, Button } from 'react-bootstrap';
+import { Row, Col, Container, Image } from 'react-bootstrap';
 import Typist from 'react-typist';
-import { LinkContainer } from 'react-router-bootstrap';
+// import { LinkContainer } from 'react-router-bootstrap';
 import { Link } from 'react-router-dom';
 
 import './VideoBackground.css';
@@ -22,7 +22,7 @@ export default class VideoBackground extends Component {
 	};
 	render() {
 		const videoOptions = {
-			src: 'http://omnia-web.com/omniaVideo.mp4',
+			src: 'https://omniamarketing.ba/omniaVideo.mp4',
 			autoPlay: true,
 			muted: true,
 			loop: true

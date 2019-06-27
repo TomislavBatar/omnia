@@ -36,8 +36,8 @@ export default class KontaktForma extends Component {
 							<Col lg={6} className="flex-pozicija lg-none">
 								<div className="">
 									<h1 className="naslov-kontakt">
-										<h2 className="naslov-kontakt-2">Ostani da ti kažem nešto još.</h2>
-										Kontaktiraj nas.
+										Ostani da ti kažem <br />
+										nešto još.
 									</h1>
 								</div>
 
@@ -60,10 +60,7 @@ export default class KontaktForma extends Component {
 									<Image className="pozicija-trokut-gornji" src={goreTrokut} alt="kontakt omnia" />
 									<Image className="pozicija-trokut-donji" src={donjiTrokut} alt="kontakt omnia" />
 									<Card.Body>
-										<Form
-											action="https://formspree.io/tomislav.batar@omniamarketing.ba"
-											method="POST"
-										>
+										<Form>
 											<Form.Group controlId="">
 												<Form.Control
 													type="text"
@@ -128,17 +125,26 @@ export default class KontaktForma extends Component {
 											<a
 												href="https://www.instagram.com/omnia_marketing_agencija/"
 												target="_blank"
+												rel="noopener noreferrer"
 											>
 												<Image src={ig} className="icon-h" alt="instagram" />
 											</a>
 										</div>
 										<div className="icon2">
-											<a href="https://www.facebook.com/omniamarketingagencija/" target="_blank">
+											<a
+												href="https://www.facebook.com/omniamarketingagencija/"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
 												<Image src={fb} className="icon-h" alt="facebook" />
 											</a>
 										</div>
 										<div className="icon3">
-											<a href="https://www.linkedin.com/company/omnia-marketing" target="_blank">
+											<a
+												href="https://www.linkedin.com/company/omnia-marketing"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
 												<Image src={li} className="icon-h" alt="linkedin" />
 											</a>
 										</div>
@@ -148,10 +154,7 @@ export default class KontaktForma extends Component {
 
 							<Col lg={6} className="flex-pozicija sm-none">
 								<div className="">
-									<h2 className="naslov-kontakt-2">Ostani da ti kažem nešto još.</h2>
-									<h1 className="naslov-kontakt">
-										Kontaktiraj nas.<br />
-									</h1>
+									<h1 className="naslov-kontakt">Ostani da ti kažem nešto još.</h1>
 								</div>
 
 								<div className="">
@@ -160,17 +163,26 @@ export default class KontaktForma extends Component {
 											<a
 												href="https://www.instagram.com/omnia_marketing_agencija/"
 												target="_blank"
+												rel="noopener noreferrer"
 											>
 												<Image src={ig} className="icon-h" alt="instagram" />
 											</a>
 										</div>
 										<div className="icon2">
-											<a href="https://www.facebook.com/omniamarketingagencija/" target="_blank">
+											<a
+												href="https://www.facebook.com/omniamarketingagencija/"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
 												<Image src={fb} className="icon-h" alt="facebook" />
 											</a>
 										</div>
 										<div className="icon3">
-											<a href="https://www.linkedin.com/company/omnia-marketing" target="_blank">
+											<a
+												href="https://www.linkedin.com/company/omnia-marketing"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
 												<Image src={li} className="icon-h" alt="linkedin" />
 											</a>
 										</div>
