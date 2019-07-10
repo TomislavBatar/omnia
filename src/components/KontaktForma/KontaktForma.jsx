@@ -60,20 +60,25 @@ export default class KontaktForma extends Component {
 									<Image className="pozicija-trokut-gornji" src={goreTrokut} alt="kontakt omnia" />
 									<Image className="pozicija-trokut-donji" src={donjiTrokut} alt="kontakt omnia" />
 									<Card.Body>
-										<Form>
+										<Form
+											id="kontaktForma"
+											action="https://formspree.io/info@omniamarketing.ba"
+											method="POST"
+										>
 											<Form.Group controlId="">
 												<Form.Control
 													type="text"
-													name="ime-i-prezime"
+													name="Ime-i-prezime"
 													placeholder="IME I PREZIME"
 													className="input-forma"
+													required
 												/>
 											</Form.Group>
 											<Form.Group controlId="">
 												<Form.Control
 													type="text"
 													className="input-forma"
-													name="firma"
+													name="Firma"
 													placeholder="FIRMA"
 												/>
 											</Form.Group>
@@ -81,31 +86,34 @@ export default class KontaktForma extends Component {
 												<Form.Control
 													type="text"
 													className="input-forma"
-													name="email-adresa"
+													name="Email-adresa"
 													placeholder="E-MAIL"
+													required
 												/>
 											</Form.Group>
 											<Form.Group controlId="">
 												<Form.Control
 													type="tel"
 													className="input-forma"
-													name="telefon"
+													name="Telefon"
 													placeholder="TELEFON"
+													required
 												/>
 											</Form.Group>
 											<Form.Group controlId="">
 												<Form.Control
 													as="textarea"
 													className="input-forma"
-													name="poruka"
+													name="Poruka"
 													placeholder="PORUKA"
 													rows="5"
+													required
 												/>
 											</Form.Group>
 										</Form>
 									</Card.Body>
 								</Card>
-								<Button type="submit" className="dugme-posalji">
+								<Button type="submit" form="kontaktForma" className="dugme-posalji">
 									<Image
 										className="pozicija-trokut-mali-gornji"
 										src={goreTrokut}
